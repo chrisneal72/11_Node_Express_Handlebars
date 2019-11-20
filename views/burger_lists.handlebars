@@ -1,0 +1,25 @@
+                    {{#if burger}}
+                    <div class="col-xs-12 col-md-7 list-container">
+                        <div class="list-container-inner">
+                            {{#each burger}}
+                            <div class="list-item">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-8">{{name}}</div>
+                                    <div class="col-1"><button id="{{id}}" type="submit" class="btn">Devour it!</button></div>
+                                </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{/if}}
+                    {{#if devoured}}
+                    <div class="col-xs-12 col-md-5 list-container">
+                        <div class="list-container-inner">
+                            {{#each devoured}}
+                            <div class="d-list-item">
+                                {{name}}
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{/if}}
