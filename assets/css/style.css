@@ -115,15 +115,6 @@ body{
     font-size: 14px;
 }
 
-.btn-lg {
-    background-color: #7c878e;
-    color: #fff;
-    width: 200px;
-    border-radius: 15px;
-    margin: 5px;
-    font-size: 14px;
-}
-
 .btn:hover {
     background-color: #ED1B24;
     color: #fff;
@@ -137,6 +128,58 @@ body{
 }
 
 .btn:active {
+    background-color: #7c878e;
+    color: #fff;
+}
+
+.d-btn {
+    background-color: #7c878e;
+    color: #fff;
+    width: 75px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.d-btn:hover {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.d-btn:focus {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.d-btn:active {
+    background-color: #7c878e;
+    color: #fff;
+}
+
+.btn-lg {
+    background-color: #7c878e;
+    color: #fff;
+    width: 200px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.btn-lg:hover {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-lg:focus {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-lg:active {
     background-color: #7c878e;
     color: #fff;
 }

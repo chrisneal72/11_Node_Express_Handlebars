@@ -5,7 +5,7 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Burger Barge</title>
 </head>
 
@@ -23,8 +23,10 @@
 				</div>
 				<div class="row">
 					<div class="col text-container">
-						<input type="text" class="text-input">
-						<button id="button-addon6" type="submit" class="btn btn-lg">Build New Burger</button>
+						<form class="create-form">
+							<input type="text" id="new-burger" name="name" class="text-input">
+							<button type="submit" class="btn btn-lg">Build New Burger</button>
+						</form>
 					</div>
 				</div>
 			</div>
