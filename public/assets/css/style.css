@@ -68,7 +68,7 @@ body{
     height: 150px;
     margin-top:20px;
     text-align: center;
-    overflow: auto;
+    overflow: none;
 }
 
 .list-item {

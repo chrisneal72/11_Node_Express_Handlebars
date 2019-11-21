@@ -5,7 +5,7 @@
                             <div class="list-item">
                                 <div class="row d-flex align-items-center">
                                     <div class="col-8">{{name}}</div>
-                                    <div class="col-1"><button class="btn" data-id="{{id}}" type="submit">Devour it!</button></div>
+                                    <div class="col-1"><button class="btn" data-id="{{id}}" data-devour="true" type="submit">Devour it!</button></div>
                                 </div>
                             </div>
                             {{/each}}
@@ -19,7 +19,7 @@
                             <div class="d-list-item">
                                 <div class="row d-flex align-items-center">
                                     <div class="col-8">{{name}}</div>
-                                    <div class="col-1"><button class="d-btn" id={{id}} type="submit">Delete</button></div>
+                                    <div class="col-1"><button class="d-btn" data-id={{this.id}}>Delete</button></div>
                                 </div>
                             </div>
                             {{/each}}
