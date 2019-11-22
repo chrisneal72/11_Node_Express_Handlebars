@@ -17,7 +17,7 @@ This assignment is using SQL as a database and we are using an orm to pass the d
 ​
 ### Screenshots
 ​
-![Image](assets/images/bb.jpg)
+![Image](public/assets/images/bb.jpg)
 ​
 ### Link
 Check it out! 
