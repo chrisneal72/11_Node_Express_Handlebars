@@ -2,11 +2,14 @@ var express = require("express");
 
 var router = express.Router();
 
+const util = require("util");
+const path = require("path");
+
 // Import the model (burger_models.js) to use its database functions.
 var burger = require("../models/burger_models.js");
 
 // Create all our routes and set up logic within those routes where required.
-router.get("/", function(req, res) {
+router.get("/api/start", function(req, res) {
   burger.all(function(data) {
     let burgers = [];
     let devBurgers = [];
@@ -63,6 +66,11 @@ router.delete("/api/burger/:id", function(req, res) {
       res.status(200).end();
     }
   });
+});
+
+
+router.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
 // Export routes for server.js to use.

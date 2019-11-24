@@ -1,5 +1,9 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function () {
+    $(".enter-btn").on("click", function (event) {
+        window.location = "/api/start";
+    });
+
     $(".btn").on("click", function (event) {
     var id = $(this).data("id");
     var devoured = $(this).data("devour");

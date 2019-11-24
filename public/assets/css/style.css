@@ -22,6 +22,14 @@ body{
     max-width: 1000px;
 }
 
+.body-container-index {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    max-width: 1000px;
+}
+
 .header-div {
     background: #fff;
     color: #000;
@@ -180,6 +188,32 @@ body{
 }
 
 .btn-lg:active {
+    background-color: #7c878e;
+    color: #fff;
+}
+
+.enter-btn {
+    background-color: #7c878e;
+    color: #fff;
+    width: 200px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.enter-btn:hover {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.enter-btn:focus {
+    background-color: #ED1B24;
+    color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.enter-btn:active {
     background-color: #7c878e;
     color: #fff;
 }
