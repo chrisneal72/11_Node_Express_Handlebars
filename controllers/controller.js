@@ -9,6 +9,8 @@ const path = require("path");
 var burger = require("../models/burger_models.js");
 
 // Create all our routes and set up logic within those routes where required.
+router.use(express.static(path.resolve('./app/public')));
+
 router.get("/api/start", function(req, res) {
   burger.all(function(data) {
     let burgers = [];
@@ -67,7 +69,6 @@ router.delete("/api/burger/:id", function(req, res) {
     }
   });
 });
-
 
 router.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/index.html"));

@@ -23,9 +23,6 @@ body{
 }
 
 .body-container-index {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 30px;
     border-radius: 25px;
     max-width: 1000px;
 }
